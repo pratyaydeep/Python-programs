@@ -1,0 +1,5 @@
+It is easy to realize that we have to find n which satisfies:
+1. it is the closest to 10^6 
+2. 3*n % 7 == 1
+therefore n = 999997
+so the numerator is 428570

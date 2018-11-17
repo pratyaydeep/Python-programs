@@ -1,0 +1,10 @@
+We need to find maximum 16-digit string.
+Thus, 10 must to be external node.
+To maximise the number we have so 6,7,8,9,10 must be 5 external nodes.
+Therefore, sum of each group of three nodes are 14.
+Once again, to maximise the number we get the group with number 6 must be 6,5,3.
+In the group contains 5, the external node is only 7 or 8. 
+Note that, 1 and 2 are not able to be in the same group.
+Finally we get the only case that satisfies all properties above.
+(6,5,3); (10,3,1); (9,1,4); (8,4,2); (7,2,5) 
+So the desired number is 6531031914842725
