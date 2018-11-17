@@ -1,0 +1,9 @@
+x1^2+ y1^2
+x2^2+ y2^2
+(x1-x2)^2 + (y1-y2)^2
+
+Truy hoi
+Dua vao cong thuc k/c
+
+so tam giac co 2 canh song song voi truc toa do la 3n^2
+ta chi can dem so tam giac ma ko co 2 canhh song song voi goc toa do
