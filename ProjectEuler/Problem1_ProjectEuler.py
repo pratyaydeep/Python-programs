@@ -6,7 +6,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 def multiple_3_or_5(n):
     """
     A utility function to calculate the sum of all multiples of 3 or 5 below n
-    Parameter:
+    Parameters
     n: a positive integer 
     """
     total = 0
