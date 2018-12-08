@@ -11,9 +11,9 @@ def fibo_even_bound(n):
     Parameters
     ---------------
     n: a positive integer 
-    Return
+    Returns
     -----------
-    A generated list
+    The generated list
     """
 
     # Initialize the Fibonacci sequence
