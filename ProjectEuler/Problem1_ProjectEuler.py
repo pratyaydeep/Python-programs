@@ -9,12 +9,11 @@ def multiple_3_or_5(n):
     Parameters
     n: a positive integer 
     """
+    
     total = 0
     desired_numbers = [x for x in range(1,n) if x%3 == 0 or x%5 == 0]
     
-    for num in desired_numbers:
-        total += num
-    return total
+    return sum(desired_numbers)
 
 if __name__ == "__main__":
     n = 1000
