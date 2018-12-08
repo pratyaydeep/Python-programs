@@ -6,11 +6,16 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 """
 def fibo_even_bound(n):
     """
-    A utility function to generate all even-valued terms in the Fibonacci sequence whose value do not exceed n
+    A utility function to generate all even-valued terms 
+    in the Fibonacci sequence whose value do not exceed n
     Parameters
+    ---------------
     n: a positive integer 
+    Return
+    -----------
+    A generated list
     """
-    
+
     # Initialize the Fibonacci sequence
     F = [1, 2]
     index = 1
@@ -23,4 +28,5 @@ def fibo_even_bound(n):
 
 if __name__ == "__main__":
     n = 4 * pow(10, 6)
-    print("Sum of the even-valued terms whose values do not exceed {} in Fibonacci sequence is {}".format(n, sum(fibo_even_bound(n))))
+    print("Sum of the even-valued terms whose values do not exceed {} \
+    in Fibonacci sequence is {}".format(n, sum(fibo_even_bound(n))))
