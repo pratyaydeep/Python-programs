@@ -7,7 +7,11 @@ def multiple_3_or_5(n):
     """
     A utility function to calculate the sum of all multiples of 3 or 5 below n
     Parameters
+    ---------------
     n: a positive integer 
+    Returns
+    ------------
+    The calculated sum
     """
     
     total = 0
